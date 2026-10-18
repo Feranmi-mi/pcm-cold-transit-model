@@ -1,0 +1,92 @@
+====================================================================================
+ROUTE: Kaduna/Kano tomato belt -> Mile 12, Lagos  (40 h trip, 30 °C mean, 6-day round trip)
+====================================================================================
+Benchmarks per kg delivered: open basket 80 NGN (warm); refrigerated truck + pre-cooling 241 NGN (cold)
+
+1. CONTAINER SIZING (thesis PCM, 87 J/g; produce pre-cooled to 15 °C)
+  50 L crate leak   11.7 W | PCM    18.7 kg | produce     17.6 kg | PCM per kg produce 1.06 | 494 per truck =  8.7 t | freight  230 NGN/kg
+  500 L bin  leak   40.7 W | PCM    72.1 kg | produce    228.3 kg | PCM per kg produce 0.32 |  55 per truck = 12.6 t | freight  159 NGN/kg
+  PCM truck  leak 1595.3 W | PCM  3228.7 kg | produce  18660.0 kg | PCM per kg produce 0.17 |   1 per truck = 18.7 t | freight  107 NGN/kg
+  Without pre-cooling (loaded at 26 °C) a 50 L crate needs 25.3 kg of PCM for 15.1 kg of produce.
+
+2. ONE HUB (3 t of produce a day), bulk chemicals
+  50 L crate 170.45 units/day, pool 1,125, unit + PCM       86,940 NGN, hub 61.1M, total capex 158.9M
+  500 L bin   13.14 units/day, pool    87, unit + PCM      478,118 NGN, hub 41.4M, total capex 83.0M
+  PCM truck    0.16 units/day, pool     1, unit + PCM   37,999,707 NGN, hub 37.6M, total capex 75.6M
+
+3. ALL-IN COST PER KG DELIVERED AT <=15 °C (break-even fee + freight), 4 hubs
+                                                           NGN/kg  change
+  As tested: 50 L crates, lab chemicals, freezer, bank debt    587        
+  + bulk chemicals                                            496     -91
+  + 500 L bins instead of crates                              315    -180
+  + one PCM-lined truck body instead of bins                  202    -114
+  + naira concessional debt                                   191     -11
+  + 25% capex grant                                           180     -11
+  + fix supercooling: charge in the pre-cooler, no freezer    180      +0
+  + fix phase separation (~190 J/g)                           176      -4
+  Refrigerated truck + pre-cooling (benchmark)                241
+  Open basket, no cooling (benchmark)                          80
+
+4. FINANCING ALONE (PCM truck, bulk chemicals, 4 hubs): all-in NGN/kg by WACC
+  A  Commercial naira debt        WACC 27.0%     202 | with 25% grant   188
+  B  USD concessional, unhedged   WACC 21.4%     193 | with 25% grant   182
+  B* same, devaluation stress     WACC 30.4%     207 | with 25% grant   192
+  C  Naira concessional/hedged    WACC 19.9%     191 | with 25% grant   180
+
+5. IS IT WORTH IT TO THE SHIPPER? (cooling cuts loss by 10% points)
+   premium = cost per kg above an open basket
+  glut      (  350 NGN/kg): saves   35 | premium: PCM truck, bank debt  122; all fixes   96; reefer  161
+  average   (1,000 NGN/kg): saves  100 | premium: PCM truck, bank debt  122; all fixes   96; reefer  161
+  scarcity  (2,400 NGN/kg): saves  240 | premium: PCM truck, bank debt  122; all fixes   96; reefer  161
+
+====================================================================================
+ROUTE: Oyo/Ogun farms -> Lagos  (10 h trip, 31 °C mean, 2-day round trip)
+====================================================================================
+Benchmarks per kg delivered: open basket 33 NGN (warm); refrigerated truck + pre-cooling 116 NGN (cold)
+
+1. CONTAINER SIZING (thesis PCM, 87 J/g; produce pre-cooled to 15 °C)
+  50 L crate leak   12.4 W | PCM     5.6 kg | produce     20.0 kg | PCM per kg produce 0.28 | 247 per truck =  4.9 t | freight   81 NGN/kg
+  500 L bin  leak   43.4 W | PCM    26.9 kg | produce    245.7 kg | PCM per kg produce 0.11 |  27 per truck =  6.6 t | freight   60 NGN/kg
+  PCM truck  leak  870.5 W | PCM   709.1 kg | produce   9000.0 kg | PCM per kg produce 0.08 |   1 per truck =  9.0 t | freight   44 NGN/kg
+  Without pre-cooling (loaded at 26 °C) a 50 L crate needs 14.4 kg of PCM for 19.2 kg of produce.
+
+2. ONE HUB (3 t of produce a day), bulk chemicals
+  50 L crate 150.00 units/day, pool   330, unit + PCM       50,614 NGN, hub 42.2M, total capex 58.9M
+  500 L bin   12.21 units/day, pool    27, unit + PCM      354,233 NGN, hub 37.0M, total capex 46.6M
+  PCM truck    0.33 units/day, pool     1, unit + PCM   31,757,424 NGN, hub 36.1M, total capex 67.8M
+
+3. ALL-IN COST PER KG DELIVERED AT <=15 °C (break-even fee + freight), 4 hubs
+                                                           NGN/kg  change
+  As tested: 50 L crates, lab chemicals, freezer, bank debt    196        
+  + bulk chemicals                                            188      -8
+  + 500 L bins instead of crates                              148     -40
+  + one PCM-lined truck body instead of bins                  130     -18
+  + naira concessional debt                                   120     -10
+  + 25% capex grant                                           111     -10
+  + fix supercooling: charge in the pre-cooler, no freezer    111      +1
+  + fix phase separation (~190 J/g)                           111      -1
+  Refrigerated truck + pre-cooling (benchmark)                116
+  Open basket, no cooling (benchmark)                          33
+
+4. FINANCING ALONE (PCM truck, bulk chemicals, 4 hubs): all-in NGN/kg by WACC
+  A  Commercial naira debt        WACC 27.0%     130 | with 25% grant   118
+  B  USD concessional, unhedged   WACC 21.4%     122 | with 25% grant   112
+  B* same, devaluation stress     WACC 30.4%     135 | with 25% grant   122
+  C  Naira concessional/hedged    WACC 19.9%     120 | with 25% grant   111
+
+5. IS IT WORTH IT TO THE SHIPPER? (cooling cuts loss by 10% points)
+   premium = cost per kg above an open basket
+  glut      (  350 NGN/kg): saves   35 | premium: PCM truck, bank debt   97; all fixes   77; reefer   83
+  average   (1,000 NGN/kg): saves  100 | premium: PCM truck, bank debt   97; all fixes   77; reefer   83
+  scarcity  (2,400 NGN/kg): saves  240 | premium: PCM truck, bank debt   97; all fixes   77; reefer   83
+
+====================================================================================
+SENSITIVITY: long haul, PCM truck, bulk chemicals, bank debt, 4 hubs (NGN/kg delivered cool)
+====================================================================================
+  Base case                                    PCM truck   202 | reefer   243
+  Truck body conversion 15M / 60M NGN          PCM truck   189 /   214 | reefer   243 /   243
+  Hub size 1.5 / 18.7 t a day (one truck daily) PCM truck   214 /   173 | reefer   258 /   231
+  Trip 30 h / 60 h                             PCM truck   199 /   207 | reefer   243 /   243
+  Reefer costs 1.5x / 2.5x normal haulage      PCM truck   202 /   202 | reefer   190 /   297
+  Produce respiration 0.02 / 0.06 W/kg         PCM truck   199 /   204 | reefer   243 /   243
+  Mean ambient on the road 27 / 33 °C          PCM truck   201 /   203 | reefer   243 /   243
